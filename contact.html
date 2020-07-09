@@ -1,196 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-   
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
     <!--Style-->
-    <link rel="stylesheet" href="contact.css">
-    
+    <link rel="stylesheet" href="contact.css" />
+
     <!--Title-->
     <title>Contact</title>
-</head>
+  </head>
 
-<body>
-     <!--Nav bar-->
-     <nav class="navbar navbar-light">
-        <div class="container">
-            <!--Header-->
-           <h1 class="navbar navbar-home display-6 bg-secondary text-white mr-">Contact Me</h1>
-           
-            <!--Portfolio Btn-->
-            <section class="navbar-nav ml-auto">
-                 <div class="navbar-item">
-                        <a href="portfolio.html" class="navbar-link">
-                            <button type="button" class="btn btn-info">Portfolio</button>
-                        </a>
-                    </div>
-            </section>
-            
-            <!--About Me Btn-->
-            <section class="navbar-nav" >
-                <div class="navbar-item">
-                    <a href="index.html" class="navbar-link">
-                        <button type="button" class="btn btn-info">About Me</button>
-                    </a>
-                </div>
-            </section>
-        </div>
+  <body>
+    <!--Nav bar-->
+    <nav class="navbar navbar-light">
+      <div class="container">
+        <!--Header-->
+        <h1 class="navbar navbar-home display-6 bg-secondary text-white mr-">
+          Contact Me
+        </h1>
+
+        <!--Portfolio Btn-->
+        <section class="navbar-nav ml-auto">
+          <div class="navbar-item">
+            <a href="portfolio.html" class="navbar-link">
+              <button type="button" class="btn btn-info">Portfolio</button>
+            </a>
+          </div>
+        </section>
+
+        <!--About Me Btn-->
+        <section class="navbar-nav">
+          <div class="navbar-item">
+            <a href="index.html" class="navbar-link">
+              <button type="button" class="btn btn-info">About Me</button>
+            </a>
+          </div>
+        </section>
+      </div>
     </nav>
     <!--End Navbar-->
-    
+
     <!--Jumbotron-->
     <div class="jumbotron bg-info mt-3 pb-5">
-        <div class="container body-container">
-<!--Section: Contact-->
-<section class="mb-4 contact-section">
+      <div class="container body-container">
+        <!--Section: Contact-->
+        <section class="mb-4 contact-section">
+          <!--Section heading-->
+          <h2 class="h1-responsive font-weight-bold text-left my-4">
+            Reach Out!
+          </h2>
 
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-left my-4">Reach Out!</h2>
-   
-
-    <div class="row">
-
-        <!--Grid column-->
-        <div class="col-md-9 mb-md-0 mb-5">
-            <!--Mail.php page created for connection-->
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+              <!--Mail.php page created for connection-->
+              <form
+                id="contact-form"
+                name="contact-form"
+                action="mail.php"
+                method="POST"
+              >
                 <!--Grid row-->
                 <div class="row">
-
-                    <!--Name Column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
-                        </div>
+                  <!--Name Column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        class="form-control"
+                      />
+                      <label for="name" class="">Your name</label>
                     </div>
-                    <!--End Name column-->
+                  </div>
+                  <!--End Name column-->
 
-                    <!--Email Column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
-                        </div>
+                  <!--Email Column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        class="form-control"
+                      />
+                      <label for="email" class="">Your email</label>
                     </div>
-                    <!--End Email Columnn-->
-
+                  </div>
+                  <!--End Email Columnn-->
                 </div>
                 <!--End Grid row-->
 
                 <!--Grid row-->
                 <div class="row">
-                    <!---Subject Column-->
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
-                        </div>
+                  <!---Subject Column-->
+                  <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        class="form-control"
+                      />
+                      <label for="subject" class="">Subject</label>
                     </div>
-                    <!--End Subject Column-->
+                  </div>
+                  <!--End Subject Column-->
                 </div>
                 <!--End Grid row-->
 
                 <!--Grid row-->
                 <div class="row">
-
-                    <!--Message Column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
-                        </div>
-
+                  <!--Message Column-->
+                  <div class="col-md-12">
+                    <div class="md-form">
+                      <textarea
+                        type="text"
+                        id="message"
+                        name="message"
+                        rows="2"
+                        class="form-control md-textarea"
+                      ></textarea>
+                      <label for="message">Your message</label>
                     </div>
-                    <!--End Message Column-->
+                  </div>
+                  <!--End Message Column-->
                 </div>
                 <!--End Grid Row-->
-
-            </form>
-            <!--Button-->
-            <div class="text-center text-md-left">
+              </form>
+              <!--Button-->
+              <div class="text-center text-md-left">
                 <a class="btn btn-primary" onclick="validateForm();">Send</a>
-                
+
                 <!--Javascript Email Validation-->
                 <script>
-                    function validateForm() {
-                    var name =  document.getElementById('name').value;
+                  function validateForm() {
+                    var name = document.getElementById("name").value;
                     if (name == "") {
-                        document.querySelector('.status').innerHTML = "Name cannot be empty";
-                        return false;
+                      document.querySelector(".status").innerHTML =
+                        "Name cannot be empty";
+                      return false;
                     }
-                    var email =  document.getElementById('email').value;
+                    var email = document.getElementById("email").value;
                     if (email == "") {
-                        document.querySelector('.status').innerHTML = "Email cannot be empty";
-                        return false;
+                      document.querySelector(".status").innerHTML =
+                        "Email cannot be empty";
+                      return false;
                     } else {
-                        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                        if(!re.test(email)){
-                            document.querySelector('.status').innerHTML = "Email format invalid";
-                            return false;
-                        }
+                      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                      if (!re.test(email)) {
+                        document.querySelector(".status").innerHTML =
+                          "Email format invalid";
+                        return false;
+                      }
                     }
-                    var subject =  document.getElementById('subject').value;
+                    var subject = document.getElementById("subject").value;
                     if (subject == "") {
-                        document.querySelector('.status').innerHTML = "Subject cannot be empty";
-                        return false;
+                      document.querySelector(".status").innerHTML =
+                        "Subject cannot be empty";
+                      return false;
                     }
-                    var message =  document.getElementById('message').value;
+                    var message = document.getElementById("message").value;
                     if (message == "") {
-                        document.querySelector('.status').innerHTML = "Message cannot be empty";
-                        return false;
+                      document.querySelector(".status").innerHTML =
+                        "Message cannot be empty";
+                      return false;
                     }
-                    document.querySelector('.status').innerHTML = "Sending...";
-                  }</script>
-                    <!--End Javascript Email Validation-->
-                    
-                    
+                    document.querySelector(".status").innerHTML = "Sending...";
+                  }
+                </script>
+                <!--End Javascript Email Validation-->
+              </div>
+              <div class="status"></div>
             </div>
-            <div class="status"></div>
+            <!--End Grid Column-->
 
-        </div>
-        <!--End Grid Column-->
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+              <!--Badge-->
+              <div
+                class="LI-profile-badge"
+                data-version="v1"
+                data-size="medium"
+                data-locale="en_US"
+                data-type="vertical"
+                data-theme="light"
+                data-vanity="kenfcheng"
+              >
+                <a
+                  class="LI-simple-link"
+                  href="https://www.linkedin.com/in/kenfcheng?trk=profile-badge"
+                  >Ken Cheng</a
+                >
+                <!--LinkedIn Badge Script-->
+                <script
+                  type="text/javascript"
+                  src="https://platform.linkedin.com/badges/js/profile.js"
+                  async
+                  defer
+                ></script>
+              </div>
+              <!--End Badge-->
+            </div>
 
-        <!--Grid column-->
-        <div class="col-md-3 text-center">
-            <!--Badge-->
-           <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="kenfcheng"><a class="LI-simple-link" href='https://www.linkedin.com/in/kenfcheng?trk=profile-badge'>Ken Cheng</a>
-           <!--LinkedIn Badge Script-->
-           <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-           </div>
-           <!--End Badge-->
+            <!--End Grid column-->
           </div>
-       
-        <!--End Grid column-->
-        
-
-
-    
+        </section>
+        <!--End Section: Contact-->
+      </div>
     </div>
+    <!--End Jumbotron-->
 
-</section>
-<!--End Section: Contact-->
-        </div>
-            
-    </div>
-    <!--End Jumbotron-->  
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  </body>
 
-<!-- Footer -->
-<footer class="page-footer font-small blue">
-
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright: Ken Cheng 
+    <div class="footer-copyright text-center py-3">
+      © 2020 Copyright: Ken Cheng
     </div>
-    
-  
-</footer>
-    
+  </footer>
+</html>
